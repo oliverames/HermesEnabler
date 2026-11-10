@@ -39,7 +39,7 @@ struct ContentView: View {
                             .foregroundStyle(.secondary)
                     }
                 }
-                .navigationTitle("HermesEnabler")
+                .navigationTitle("Hermes Enabler")
             }
         }
         .onChange(of: scenePhase, initial: true) { _, phase in
